@@ -21,4 +21,3 @@ def get_files_info(working_directory, directory="."):
         size= os.path.getsize(content_path)
         final_res += f"- {content}: file_size={size} bytes, is_dir={is_dir}\n"
     return final_res
-        
